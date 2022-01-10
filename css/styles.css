@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+/* Background picture*/
+body {
+	font-family: 'Poppins', sans-serif;
+	color: wheat;
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+	background: url('C:/Users/Jamil/OneDrive/Desktop/ClassAct-Website/images/Steppin.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+}
+
+/* Main Section */
+.top-text {
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 400px;
+}
+
+.middle-text {
+	font-size: 35px;
+}
+
+/*Animation Feature*/
+main {
+	width: 100%;
+	height: 50vh;
+	animation: mymove 3s infinite;
+}
+@keyframes mymove {
+	0% {
+		color: rgb(44, 104, 104);
+	}
+	25% {
+		color: wheat;
+	}
+	50% {
+		color: rgb(44, 104, 104);
+	}
+	100% {
+		color: wheat;
+	}
+}
+
+footer {
+	margin-bottom: 20px;
+	display: inline-flex;
+}
+
+footer p {
+	padding: 10px;
+}
+/*Media Query*/
+
+@media only screen and (min-width: 914px) {
+	.top-text {
+		font-size: 35px;
+		margin-top: 20px;
+		margin-bottom: 300px;
+	}
+
+	.middle-text {
+		font-size: 50px;
+	}
+}
