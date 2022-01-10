@@ -14,7 +14,7 @@ body {
 	margin: 0;
 	height: 100%;
 	overflow: hidden;
-	background: url('C:/Users/Jamil/OneDrive/Desktop/ClassAct-Website/images/Steppin.jpg');
+	background: url(../images/Steppin.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
